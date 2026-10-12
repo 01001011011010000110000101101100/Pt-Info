@@ -1,0 +1,25 @@
+[project]
+name = "pt-server"
+version = "0.1.0"
+dependencies = [
+  "flet",     
+  "fastapi",
+  "uvicorn",           
+  "aiofiles",
+  "pydantic", 
+]
+
+[tool.flet]
+product = "Pt.Server"
+org = "com.mmk"
+
+[tool.flet.app]
+path = "src"
+
+[tool.flet.android]
+adaptive_icon_background = "#0d2f54"
+
+[tool.flet.android.permission]
+"android.permission.INTERNET" = true
+"android.permission.WAKE_LOCK" = true
+"android.permission.FOREGROUND_SERVICE" = true

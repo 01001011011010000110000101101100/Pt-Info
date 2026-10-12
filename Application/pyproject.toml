@@ -1,0 +1,24 @@
+[project]
+name = "pt.Info"
+version = "2.0.0"
+dependencies = [
+  "flet",              
+  "httpx",
+  "reportlab",
+  "python-bidi",
+  "arabic-reshaper"
+]
+
+[tool.flet]
+product = "Pt.Info"
+org = "com.mmk"
+
+[tool.flet.app]
+path = "src"
+
+[tool.flet.android]
+adaptive_icon_background = "#0d2f54"
+
+[tool.flet.android.permission]
+"android.permission.INTERNET" = true
+"android.permission.WAKE_LOCK" = true
