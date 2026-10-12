@@ -15,7 +15,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
-SERVER_URL = u"https://patientapi.rasha.win"
+SERVER_URL = u"http://127.0.0.1:2011"
 
 class NetworkManager:
     _client: httpx.AsyncClient | None = None
