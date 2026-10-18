@@ -2,4 +2,3 @@ build/
 .venv/
 Banned.dat
 nurse_data.csv
-assets/
