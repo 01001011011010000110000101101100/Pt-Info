@@ -1,0 +1,9 @@
+uvicorn == 0.54.0;
+flet == 1.0.2;
+aiofiles == 25.1.0;
+pydantic == 2.13.5;
+httpx == 0.28.1;
+fastapi == 0.141.1;
+reportlab == 5.0.1;
+arabic-reshaper == 3.0.1;
+python-bidi == 0.6.11;
