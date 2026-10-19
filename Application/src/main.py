@@ -437,8 +437,4 @@ async def main(page: ft.Page):
 # -----------  START RUNNING  ------------
 if __name__ == '__main__' :
     ft.run(main)
-<<<<<<< HEAD
     NetworkManager.close()
-=======
-    NetworkManager.close()
->>>>>>> master
